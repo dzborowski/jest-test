@@ -1,0 +1,14 @@
+FROM node:14 AS test_build
+
+WORKDIR /usr/jest-test
+
+COPY ["package.json", "."]
+COPY ["package-lock.json", "."]
+
+RUN ["npm", "ci"]
+
+COPY . .
+
+FROM test_build
+
+RUN ["npm", "run", "test"]
