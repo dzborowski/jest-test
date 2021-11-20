@@ -1,0 +1,23 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzborowski/jest-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzborowski/jest-test/issues"
+  },
+  "homepage": "https://github.com/dzborowski/jest-test#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
