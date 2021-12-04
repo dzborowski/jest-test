@@ -1,3 +1,0 @@
-FROM jest-test:1.0.0
-
-RUN ["npm", "run", "test"]
